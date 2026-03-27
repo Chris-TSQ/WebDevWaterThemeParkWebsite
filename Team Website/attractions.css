@@ -1,0 +1,148 @@
+/* Style the Slideshow animation*/
+.slider-frame
+{
+    overflow: hidden;
+    height: 400px;
+    width: 1777px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+
+@-webkit-keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left:0px;}
+    20%{left:1777px;}
+    30%{left:1777px;}
+    40%{left:3554px;}
+    50%{left:3554px;}
+    60%{left:1777px;}
+    70%{left:1777px;}
+    80%{left:0px;}
+    90%{left:0px;}
+    100%{left:0px;}
+}
+
+.slide-images{
+    width: 5331px;
+    height: 698px;
+    margin: 0 0 0 -3554px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    
+}
+
+.img-container{
+    height: 698px;
+    width: 1777px;
+    position: relative;
+    float: left;
+    
+}
+/*End of Slideshow Styling*/
+
+
+/* This is to style the button at the bottom right of each section */
+.button
+{
+  
+    float: right;
+
+}
+
+/* This is to style the 'Explore World-Class Attractions' header in the Attractions page */
+#header
+{
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  margin-left: 12px;
+  
+}
+
+/* This is to style the links to the different attractions */
+#anchors ul
+{
+   list-style-type: none; 
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   align-items: center;
+   text-align: center;
+   font-style: italic;
+   font-size: 20px;
+   
+}
+
+/*This is to style the Yellow Slide section*/
+#yellowslide
+{
+    background-color: rgba(246, 255, 0, 0.2);;
+    
+}
+/*This is style the Die Slide section*/
+#dieslide
+{
+    background-color: rgba(0, 145, 255, 0.2);;
+}
+/*This is to style the Devil Slide section*/
+#devilslide
+{
+    background-color: rgba(75, 4, 239, 0.2);;
+}
+/*This is to style Angel Slide section*/
+#angelslide
+{
+    background-color: rgba(255, 0, 0, 0.2);
+}
+/*This is to style the God Slide section*/
+#godslide
+{
+    background-color: rgba(0, 255, 140, 0.2);;
+}
+
+/* This is to adjust the section containing the slide images and their respective descriptions */
+.box 
+{
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+    
+}
+
+/* This is to style the properties in the section containing the slide images and the descriptions  */
+.image
+{
+    width: 300px;
+}
+.centre
+{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+/* This is to style the star ratings at the bottom of each slide image */
+.stars 
+{
+    padding-left: 200px;
+    padding-bottom: 4px;
+    
+}
+
+/* This is to style the table borders of the Attractions page */
+th
+{
+    border-right:2px solid black;
+}
+
+
+/* This is to adjust the padding between the description of slides and the images on the left  */
+.divisionspaces
+{
+    padding: 10px;
+}
+

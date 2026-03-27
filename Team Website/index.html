@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="utf-8">
+<!-- This is the name of our Themepark website-->
+    <title> Eighty-One W.P. Pte Ltd</title>
+    
+<!-- These are the external stylesheets -->
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <header role="banner">
+  </header>
+  
+<!--This is the Name and Logo of the webpage-->
+  <div class="site-identity">
+    <img id="logo"src="images/logo.png" alt="logo"/>
+    <h1 id="topheader">Eighty-One Water Park</h1>
+  </div> 
+  
+<!--This is the navigation bar of the webpage-->
+    <nav  id="navbar">
+        <table id="navbartable" >
+            <tr>
+                <th><a href="/index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a></th>
+                <th> <a href="/attractions.html"> <i class="fas fa-bacon fa-lg"></i>&nbsp;Attractions</a></th>
+                <th> <a href="/calendar.html"><i class="fas fa-calendar-check fa-lg"></i>&nbsp;&nbsp;Calendar</a> </th>
+                <th id="thproperties"> <input type="text" placeholder="Search..."><i class="i fas fa-search"></i></th>
+            </tr>
+        </table>
+    </nav>
+  
+<!--This is the Introductory Slideshow images -->
+    
+    <div class="slider-frame">
+        <div class="slide-images">
+            <div class="img-container">
+                 <!--Reference from https://unsplash.com/s/photos/waterpark-->
+                 <img src="https://images.unsplash.com/photo-1503505946976-e489ce29e0fd?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1777" width="100%" height="100%" alt="Slideshow Image 1">
+            </div>
+            <div class="img-container">
+                 <!--Reference from https://www.whitewaterwest.com/en/projects/chimelong-waterpark/-->
+                <img src="https://www.whitewaterwest.com/wp-content/uploads/fly-images/21783/7-Whizzard-Chimelong-Waterpark-China-1-scaled-3200x700-c.jpg" width = 1777px height = 698px>
+            </div>
+            <div class="img-container">
+                <!--Reference from https://www.timeout.com/new-jersey/kids/best-water-parks-in-nj-for-families-->
+                <img src ="https://media.timeout.com/images/103801593/image.jpg" width = 1777px height = 698px>
+            </div>
+        </div>
+    </div>
+
+<br>
+<hr>
+<br><br>
+    
+<!--This is the showcase of Yellow Slide-->
+    <div class="attractions-grid">
+         <div class = "text-box">
+            <h2 class="title">Yellow Slide</h2>
+            <p class="text">Yellow Slide is one of Singapore’s largest water slides that promises a day of thrills and spills for the whole family. Situated in Downtown East, it remains one of the most popular attractions and was voted Top 5 Water Slides in Asia under TripAdvisor Travellers’ Choice in 2021 and 2022. It was also the Travellers' Choice Top 10 award recipient from 2019 to 2020.. </p><br>
+            <!--Above text adapted from https://www.wildwildwet.com/ -->
+            <a class="learn-more" href="attractions.html">Learn More</a>
+        </div>
+          <div class ="img-grid">
+            <a class ="image-1" href="attractions.html"><img src="https://travelwithbender.com/files/3814/0275/5965/sunny_beach_paradise_aquapark_IMG_9330-2.jpg" width="80%" height="100%" alt="Yellow Slide image"></a>
+        </div>
+        <!--  This is the showcase of Devil Slide-->
+        <div class="img-grid">
+        <a class = "image-2" href="attractions.html">
+        <img src="https://www.watertoys.com/wp-content/uploads/2019/06/AQUATROPICA-BUTTON-900x600-900x600.jpg" width="80%" height="100%" alt="Devil Slide image"></a>
+        </div> 
+        <div class="text-box">
+        <h2 class = "title">Devil Slide</h2>
+            <p class="text">Recently expanded and sitting on 4 hectares of land, Devil Slide is for all age groups and promises to bring excitement to a whole new level for everyone. From adrenaline-pumping rides like Kraken Racers - Singapore's first four-lane mat racer or Royal Flush - Asia's first hybrid ride featuring both the Behemoth BOWL40 and TornadoWAVE rides in one to relaxing and gentle ones like Shiok River, visitors are guaranteed a splashing fun-filled day!</p> 
+            <!-- Above text adapted from https://www.wildwildwet.com/explore/rides-attractions -->
+            <a class="learn-more" href="attractions.html">Learn More</a>
+        </div>
+    </div>
+<br><br>
+<hr>
+<!--This is the map of the themepark-->
+    <div class="map-grid">
+        <div class = "map-img-grid">
+            <a>
+            <img class="map-img" src="https://www.aquaticgroup.com/wp-content/uploads/2020/04/soaky-mountain-rendering.jpg"  usemap="#park-map" alt="park map"></a>
+            
+            <map name="park-map">
+                <area alt="Yellow Slide" title="Yellow Slide" href="attractions.html" coords="173,438,187,431,199,405,204,427,202,461,211,478,231,474,238,431,257,425,297,443,316,413,259,377,290,363,310,344,288,329,260,335,262,307,243,301,228,320,212,297,192,291,183,312,164,313,164,340,160,380,158,400,164,424" shape="poly">
+                <area alt="Devil Slide" title="Devil Slide" href="attractions.html" coords="598,93,617,109,631,113,634,131,644,136,654,128,669,127,686,116,701,121,726,131,766,122,780,169,771,203,735,216,716,210,697,220,676,221,664,207,653,190,633,187,616,166,590,152,588,127,580,104" shape="poly">
+                <area alt="Die Slide" title="Die Slide" href="attractions.html" coords="425,189,462,276,482,321,498,317,485,217,478,154,464,92,441,93,416,102,401,128,409,166" shape="poly">
+            </map>
+        </div> 
+        <div class="text-box">
+            <h2 class = "title">Directory</h2>
+                <p class="text">
+                    Having been expanded in 2017, it is now bigger and better. Boasting thrilling high speed water rides to kid-friendly ones, it promises the perfect adventure for guests of all ages. 
+                    In addition to its original nine slides and rides, guests can enjoy seven latest attractions including the Royal Flush, Asia’s first hybrid ride, and the Kraken Racers, Singapore’s first four-lane mat racer slide. If that is a level too mild, dare yourself to go on the Torpedo or Free Fall for a mind-blowing experience. 
+                    There are also rides for little ones over at the Kidz Zone, ensuring that at its heart, it remains a family experience water theme park in Singapore.</p>
+            <!-- Above text from https://www.wildwildwet.com/visitor-information/about-us-->
+        </div>
+    </div> 
+<hr>
+</body>
+    
+<!--This is the footer of the webpage-->
+    <div class = "footer">
+        
+        <div class="grid-container"> 
+            <div class="grid-item item1">
+                <div><h3>Content</h3></div>
+                    <BR>
+                
+                      <div><a href="/index.html">Home</a></div>
+                    <div><a href="/attractions.html">Attractions</a></div>
+                    <div><a href="/calendar.html">Calendar</a></div>
+            </div>
+                
+            
+            <div class="grid-item item2"><h3>About Us</h3>
+                <br>
+                <div>Location</div>
+                <div>Find Us</div>
+            </div>
+            
+            <div class="grid-item item2"><h3>About Us</h3></div>
+      
+            <div> <i class="fab fa-facebook-f"> </i> 
+            <i class="fab fa-twitter"></i><i class ="fab fa-youtube"></i><i class="fab fa-instagram">
+            </i>
+            <p class="grid-item"> &copy Copyright 2022 by Eighty-One W.P. Pte Ltd</p>
+            </div>
+            
+            
+
+        </div>
+    
+    </div>
+    
+</html>

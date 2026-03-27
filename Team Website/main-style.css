@@ -1,0 +1,133 @@
+/*style the website name*/
+
+#topheader
+{
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 60px;
+    margin: 0;
+}
+
+nav
+{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/*style the navigational bar outer border cell border*/
+#navbar{
+    border: 1px solid black;
+    background: black;
+    width: 100%;
+}
+
+/* table stretches to the full width of website */
+#navbartable
+{
+    width: 100%;
+}
+
+#thproperties
+{
+    width: 10px;
+}
+
+th 
+{    
+    font-family: Helvetica, sans-serif;
+    background-color: white;
+    border: 3px solid black;
+    height: 50px;
+    width: 300px;
+}
+
+
+#logo
+{
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*style the background color*/
+body 
+{
+    background-color: rgba(133, 220, 184, 0.2);
+    margin:0;
+    padding:0;
+    font-family: Helvetica, sans-serif;
+}
+
+/*style footer*/
+footer 
+{
+    display: block;
+    padding: 20px;
+    border: 0px;
+    margin: 0px;
+    background-color: rgba(133, 220, 184, 0.2);
+    font-family: Brush Script MT, cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-container 
+{
+  width: 30%;
+  display: grid;
+  padding: 1rem;
+  
+
+}
+.grid-item {
+  
+  text-align: left;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight:600;
+  word-spacing: 0.1 rem;
+  
+}
+.item1 
+{
+  grid-column: 1 / span 1;
+  grid-row: 1;
+  align-items: center;
+  grid-column: auto;
+}
+
+.item2 
+{
+  grid-column: 2 / span 1;
+  grid-row:1 
+}
+
+.item3 
+{
+  grid-column: 3 / span 1;
+  grid-row: 1;
+}
+
+
+.footer
+{
+    background-color: azure;
+    justify-content: left;
+    padding: 3rem;
+    margin-bottom: 0rem;
+    
+}
+
+.footer i
+{
+    font-size: 2rem;
+    padding:0.5rem;
+    justify-content: center;
+    align-content: center;
+}
+
+/* end of style footer */

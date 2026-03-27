@@ -1,0 +1,148 @@
+
+/* This is to style the Slideshow animation */
+.slider-frame
+{
+    overflow: hidden;
+    height: 698px;
+    width: 1777px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+@-webkit-keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left:0px;}
+    20%{left:1777px;}
+    30%{left:1777px;}
+    40%{left:3554px;}
+    50%{left:3554px;}
+    60%{left:1777px;}
+    70%{left:1777px;}
+    80%{left:0px;}
+    90%{left:0px;}
+    100%{left:0px;}
+}
+
+.slide-images
+{
+    width: 5331px;
+    height: 698px;
+    margin: 0 0 0 -3554px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container
+{
+    height: 698px;
+    width: 1777px;
+    position: relative;
+    float: left;
+    
+}
+/* End of Slideshow Styling */
+
+
+/* This is to style the title headings of the two slides and the map directory */
+.title
+{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    font-family:sans-serif;
+}
+
+/* This is to adjust the attractions grid container (images and descriptions) */
+.attractions-grid
+{
+    display: grid;
+    grid: auto / 1fr 1fr;
+    grid-row-gap: 70px;
+}
+
+/* This is to adjust the image grids of both slides */
+.img-grid
+{
+    padding: 0 20px;
+}
+
+/* This is to style the image of the "Yellow Slide" */
+a.image-1
+{
+    margin-left: 120px;
+}
+
+/* This is to style the image of the "Devil Silde" */
+a.image-2
+{
+    margin-left: 30px;
+}
+
+/* This is to adjust the description grids of both slides and map directory*/
+.text-box
+{
+    padding: 0 20px;
+}
+
+
+/* This is to style the "Learn More" buttons */
+a.learn-more
+{
+    margin-left: 43.5%;
+    font-family: sans-serif;
+    background-color: coral;
+    font-size: 150%;
+}
+
+/* This is to adjust the map grid container (image and descirption) */
+.map-grid
+{
+    display: grid;
+    grid: auto / 3fr 2fr;
+    padding-top: 70px;
+    margin-bottom: auto;
+    
+}
+/*This is to adjust the map image grid of the webpage*/
+.map-img-grid
+{
+    height: 100%;
+    width: 100%;
+}
+
+/*This is to style the map image of the webpage*/
+img.map-img
+{
+    width:auto;
+    height:auto;
+    margin-left: 60px;
+    margin-bottom: 80px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+/*This is to style the descriptions paragraphs the 2 slides and the map directory*/
+p.text
+{
+    text-align: center;
+    line-height: 2.25;
+    font-size: 22px;
+    padding: 10px;
+    font-family:sans-serif;
+    
+}
+
+
+/* This is to style the line separators*/
+hr
+{
+    width:100%;
+    border-color: black;
+    border-width: 1px; 
+}
+
